@@ -1,0 +1,118 @@
+@media (max-width:1164px) {
+    .blocks-container {
+        height: auto;
+        justify-content: center;
+    }
+    .section-title { 
+        margin-left: 140px;
+    }
+    .block:nth-child(1), .block:nth-child(2), .block:nth-child(3), .block:nth-child(5), .block:nth-child(6), .block:nth-child(7), .block:nth-child(9) {
+        margin-right: 10px;
+    }
+} 
+@media (max-width:1134px) {
+    .block:nth-child(1), .block:nth-child(2), .block:nth-child(3), .block:nth-child(5), .block:nth-child(6), .block:nth-child(7), .block:nth-child(9) {
+        margin-right: 0px;
+    }
+    .block {
+        margin: 10px;
+    }
+}
+
+@media (max-width:970px) {
+    .burger-bar {
+        display: block;
+    }
+    .navigation {
+        display: none;
+    }
+}
+@media (max-width:872px) {
+    .block:nth-child(1), .block:nth-child(2), .block:nth-child(3), .block:nth-child(9) {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .block:nth-child(5), .block:nth-child(6), .block:nth-child(7), .block:nth-child(8) {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .blocks-container {
+        justify-content: space-between;
+    }
+    .block {
+        margin: 0px;
+    }
+    .block:nth-child(4),
+    .block:nth-child(5),
+    .block:nth-child(6) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .block:nth-child(10) {
+        margin-top: 10px;
+    }
+    
+}
+@media(max-width:832px) {
+    .block {
+        width: 40%;
+    }
+    .blocks-container {
+        justify-content: space-evenly;
+    }
+}
+@media(max-width:590px) {
+    .headers-icons p {
+        display: none;
+    }
+    .headers-icons {
+        width: 100px;
+    }
+    .footer-icons p {
+        display: none;
+    }
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+    }
+    .block {
+        width: 60%;
+    }
+    .block:nth-child(2),
+    .block:nth-child(8) {
+        margin-top: 10px ;
+        margin-bottom: 10px ;
+    }
+    
+}
+@media(max-width:480px) {
+    .footer-icons {
+        width: 100px;
+    }
+    .services-header {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media (max-width:400px) {
+    .footer-line1 {
+        padding-left: 20px ;
+        padding-right: 20px ;
+    }
+}
+@media (max-width:360px) {
+    .footer-icons {
+        width: 80px;
+    }
+    .block {
+        width: 70%;
+    }
+    .headers-icons {
+        display: none;
+    }
+}
+@media (max-width:320px){
+    .block {
+        width: 80%;
+    }
+}
