@@ -29,6 +29,9 @@
     display: flex;
     justify-content: space-between;
 }
+.headers-icons a {
+    color: black;
+}
 .logo {
     margin-right: 97px;
 }
@@ -57,6 +60,7 @@
     
 }
 .block {
+    position: relative;
     width: 272px;
     /* width: 100%; */
     height: 327px;
@@ -97,6 +101,17 @@
     width: 98px;
     color: #fff;
 }
+.block a::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+}
+.block:hover a{
+    color: black;
+}
 .block:hover {
     background-color: #D7BE69;
     color: #202126;
@@ -130,9 +145,6 @@ footer {
     align-items: center;
     color: #fff;
     background-color:#202126 ;
-}
-.line2-text1 {
-    margin-right: 10px;
 }
 .line2-text1::before {
     font-family: FontAwesome; content: "\f1f9";
